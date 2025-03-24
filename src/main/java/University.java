@@ -1,5 +1,3 @@
-
-
 public class University {
 
     String id;

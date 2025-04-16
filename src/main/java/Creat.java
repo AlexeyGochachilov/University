@@ -4,7 +4,7 @@ import enums.StudentComparatorType;
 import enums.UniversityComparatorType;
 import models.Student;
 import models.University;
-import prog.ComparatorProg;
+import util.ComparatorProg;
 
 import java.io.IOException;
 import java.util.List;

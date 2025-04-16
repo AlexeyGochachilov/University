@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentAvgExamScoreComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentCourseComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentUniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityProfileComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityShortNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityYearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StudentComparatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/UniversityComparatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prog/ComparatorProg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Creat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudyProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/StudyProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/University.java" afterDir="false" />
-    </list>
+    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743336241099</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changes 3">
+      <option name="closed" value="true" />
+      <created>1744816170234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744816170234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first step" />
     <MESSAGE value="creating read  from Excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating read  from Excel" />
+    <MESSAGE value="changes 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 3" />
   </component>
 </project>

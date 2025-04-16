@@ -1,4 +1,4 @@
-package prog;
+package util;
 
 import comparator.*;
 import enums.StudentComparatorType;
@@ -16,7 +16,6 @@ public class ComparatorProg {
             case UNIVERSITY_ID:
                 return new StudentUniversityIdComparator();
             case FULL_NAME:
-                //noinspection DuplicateBranchesInSwitch
                 return new StudentFullNameComparator();
             case COURSE:
                 return new StudentCourseComparator();

@@ -1,9 +1,14 @@
+package models;
+
 public class Student {
 
     String fullName;
     String universityId;
     int currentCourseNumber;
     float avgExamScore;
+
+    public Student() {
+    }
 
     public Student(float avgExamScore, int currentCourseNumber, String universityId, String fullName) {
         this.avgExamScore = avgExamScore;
@@ -50,7 +55,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "DATA.Student{" +
                 "fullName='" + fullName + '\'' +
                 ", universityId='" + universityId + '\'' +
                 ", currentCourseNumber=" + currentCourseNumber +

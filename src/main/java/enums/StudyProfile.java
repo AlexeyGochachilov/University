@@ -1,9 +1,12 @@
+package enums;
+
 public enum StudyProfile {
+    PHYSICS("Физика"),
+    COMPUTER_SCIENCE("Информатика"),
+    MATHEMATICS("Математика"),
+    JURISPRUDENCE("Юриспруденция"),
     MEDICINE("Медицина"),
-    COMPUTER_SCIENCE("Компьютерные науки"),
-    LAW("Юриспруденция"),
-    ECONOMICS("Экономика"),
-    LITERATURE("Филология");
+    LINGUISTICS("Лингвистика");
 
     private final String profileName;
 

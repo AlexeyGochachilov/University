@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentAvgExamScoreComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentCourseComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentFullNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentUniversityIdComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityFullNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityIdComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityProfileComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityShortNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityYearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StudentComparatorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/UniversityComparatorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prog/ComparatorProg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Creat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudyProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/StudyProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,22 +71,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Creat.executor": "Run",
-    "Maven.University [clean,install].executor": "Run",
-    "Maven.University [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AndroidCode",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Creat.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.University [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.University [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AndroidCode&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Creat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Creat" />
@@ -132,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742807071067</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creating read  from Excel">
+      <option name="closed" value="true" />
+      <created>1743336241098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743336241099</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="first step" />
+    <MESSAGE value="creating read  from Excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating read  from Excel" />
   </component>
 </project>

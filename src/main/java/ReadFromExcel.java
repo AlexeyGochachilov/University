@@ -8,6 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,12 +16,18 @@ import java.util.List;
 
 public class ReadFromExcel {
 
-    public static List<University> readXlsUniversity (String fileName) throws IOException{
+    public static List<University> readXlsUniversity (String fileName) {
 
         List<University> universities = new ArrayList<>();
 
-        FileInputStream fileInputStream = new FileInputStream(fileName);
-        XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
+        FileInputStream inputStream = null;
+        XSSFWorkbook workbook = null;
+        try {
+            inputStream = new FileInputStream(fileName);
+            workbook = new XSSFWorkbook(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         XSSFSheet sheet = workbook.getSheet("Университеты");
 
         Iterator<Row> rows = sheet.iterator();
@@ -41,12 +48,19 @@ public class ReadFromExcel {
         return universities;
     }
 
-    public static List<Student> readXlsStudents(String filePath) throws IOException {
+    public static List<Student> readXlsStudents(String filePath){
 
         List<Student> students = new ArrayList<>();
 
-        FileInputStream inputStream = new FileInputStream(filePath);
-        XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+        FileInputStream inputStream = null;
+        XSSFWorkbook workbook = null;
+        try {
+            inputStream = new FileInputStream(filePath);
+            workbook = new XSSFWorkbook(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         XSSFSheet sheet = workbook.getSheet("Студенты");
 
         Iterator<Row> rows = sheet.iterator();

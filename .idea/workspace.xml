@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="" />
+    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Creat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/University.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744816170234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changes 3">
+      <option name="closed" value="true" />
+      <created>1744818409135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744818409135</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

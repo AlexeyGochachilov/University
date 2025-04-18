@@ -7,12 +7,11 @@ import models.University;
 import util.ComparatorProg;
 import util.JsonUtil;
 
-import java.io.IOException;
 import java.util.List;
 
 public class Creat {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         List<University> universities = ReadFromExcel.readXlsUniversity("universityInfo.xlsx");
         UniversityComparator universityComparator = ComparatorProg.getUniversityComparator(UniversityComparatorType.YEAR);
@@ -28,7 +27,7 @@ public class Creat {
         System.out.println(jsonStudents);
         List<Student> studentsFromJson = JsonUtil.jsonListToStudentlist(jsonStudents);
 
-        if (universitiesFromJson.size() == universities.size() && studentsFromJson.size() == students.size()){
+        if (universitiesFromJson.size() == universities.size() && studentsFromJson.size() == students.size()) {
             System.out.println("\n коллекции одинаковые \n".toUpperCase());
         }
 

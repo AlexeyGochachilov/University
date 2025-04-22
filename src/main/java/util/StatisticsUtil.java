@@ -1,7 +1,6 @@
 package util;
 
 import enums.StudyProfile;
-import io.ReadFromExcel;
 import models.Statistics;
 import models.Student;
 import models.University;

@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Creat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/XlsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/XlsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/StatisticsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/StatisticsUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="0cc8bca7-2b2d-46ad-baa1-d93570cb2fc8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +110,7 @@
       <workItem from="1745313322012" duration="4476000" />
       <workItem from="1745322817546" duration="39000" />
       <workItem from="1745493481705" duration="8000" />
-      <workItem from="1745583670545" duration="4656000" />
+      <workItem from="1745583670545" duration="5325000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -216,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745316998855</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create Log4J">
+      <option name="closed" value="true" />
+      <created>1745588377547</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745588377547</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +245,7 @@
     <MESSAGE value="changes 3" />
     <MESSAGE value="changes json" />
     <MESSAGE value="create statistic" />
-    <option name="LAST_COMMIT_MESSAGE" value="create statistic" />
+    <MESSAGE value="create Log4J" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Log4J" />
   </component>
 </project>

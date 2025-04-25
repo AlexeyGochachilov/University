@@ -136,4 +136,30 @@
 588[DEBUG] 2025-04-25 16:37:13.860 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
 588[DEBUG] 2025-04-25 16:37:13.863 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
 588[INFO ] 2025-04-25 16:37:13.866 [main] Creat - CreatStatisticUniversityInfo.xlsx
+34[DEBUG] 2025-04-25 16:56:30.630 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:56:30.645 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:56:30.648 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:56:30.652 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:56:31.247 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:56:31.248 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:56:31.476 [main] Creat - readUniversitiesFromXL[DATA.University{id='0001-high', fullName='Московский Выдуманный Университет', shortName='МВУ', yearOfFoundation=1990, mainProfile=PHYSICS}, DATA.University{id='0002-high', fullName='Московский Придуманный Институт', shortName='МПИ', yearOfFoundation=1987, mainProfile=PHYSICS}, DATA.University{id='0003-high', fullName='Московский Государственный Медицинский Университет', shortName='МГМУ', yearOfFoundation=1960, mainProfile=MEDICINE}, DATA.University{id='0004-high', fullName='Тамбовский Университет Медицины', shortName='ТУМ', yearOfFoundation=1995, mainProfile=MEDICINE}, DATA.University{id='0005-high', fullName='Самарский Медицинский Институт', shortName='СМИ', yearOfFoundation=1936, mainProfile=MEDICINE}, DATA.University{id='0006-high', fullName='Воронежский Литературно-Переводческий Университет', shortName='ВЛПУ', yearOfFoundation=2003, mainProfile=LINGUISTICS}, DATA.University{id='0007-high', fullName='Казанский Университет Вычислений', shortName='КУВ', yearOfFoundation=1989, mainProfile=MATHEMATICS}]
+25[DEBUG] 2025-04-25 16:56:31.503 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:56:31.506 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:56:31.509 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:56:31.511 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:56:31.540 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:56:31.541 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:56:31.585 [main] Creat - readStudentsFromXL[DATA.Student{fullName='Иванов И. А.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Козлов М. В.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.6}, DATA.Student{fullName='Фёдоров А. И.', universityId='0002-high', currentCourseNumber=3, avgExamScore=4.2}, DATA.Student{fullName='Игнатьев М. М.', universityId='0003-high', currentCourseNumber=4, avgExamScore=4.3}, DATA.Student{fullName='Соколов В. В.', universityId='0004-high', currentCourseNumber=1, avgExamScore=4.8}, DATA.Student{fullName='Сидоров Е. Г.', universityId='0004-high', currentCourseNumber=2, avgExamScore=3.9}, DATA.Student{fullName='Витальев В. А.', universityId='0001-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Петров П. А.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Алексеев С. В.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Иванов А. Г.', universityId='0001-high', currentCourseNumber=3, avgExamScore=4.8}, DATA.Student{fullName='Васильев В. П.', universityId='0001-high', currentCourseNumber=4, avgExamScore=4.7}]
+30[INFO ] 2025-04-25 16:56:31.589 [main] util.StatisticsUtil - Started creating statistic
+25[INFO ] 2025-04-25 16:56:31.606 [main] util.StatisticsUtil - Finished creating statistics with created 4 objects
+67[DEBUG] 2025-04-25 16:56:31.788 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 16:56:31.789 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 16:56:31.906 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 16:56:31.912 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 16:56:31.914 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 16:56:31.919 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 16:56:31.920 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 16:56:31.921 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 16:56:31.924 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[INFO ] 2025-04-25 16:56:31.927 [main] Creat - CreatStatisticUniversityInfo.xlsx
 34

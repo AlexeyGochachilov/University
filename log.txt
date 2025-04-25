@@ -1,0 +1,139 @@
+[DEBUG] 2025-04-25 15:56:08.705 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 15:56:08.722 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 15:56:08.725 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 15:56:08.729 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 15:56:09.349 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:09.351 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 15:56:09.520 [main] Creat - readUniversityFromXL
+25[DEBUG] 2025-04-25 15:56:09.542 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 15:56:09.546 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 15:56:09.549 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 15:56:09.552 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 15:56:09.582 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:09.584 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:09.799 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 15:56:09.801 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 15:56:09.921 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 15:56:09.928 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 15:56:09.929 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 15:56:09.934 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 15:56:09.936 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 15:56:09.936 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 15:56:09.939 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[DEBUG] 2025-04-25 15:56:21.340 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 15:56:21.353 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 15:56:21.357 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 15:56:21.359 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 15:56:21.937 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:21.939 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 15:56:22.092 [main] Creat - readUniversityFromXL
+25[DEBUG] 2025-04-25 15:56:22.112 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 15:56:22.114 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 15:56:22.116 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 15:56:22.117 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 15:56:22.138 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:22.139 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 15:56:22.331 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 15:56:22.332 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 15:56:22.452 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 15:56:22.459 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 15:56:22.460 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 15:56:22.465 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 15:56:22.466 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 15:56:22.467 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 15:56:22.470 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[DEBUG] 2025-04-25 16:12:42.872 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-04-25 16:12:42.883 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-04-25 16:12:42.885 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2025-04-25 16:12:42.888 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-04-25 16:12:43.482 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-04-25 16:12:43.483 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[INFO ] 2025-04-25 16:12:43.633 [main] Creat - readUniversityFromXL
+[DEBUG] 2025-04-25 16:12:43.664 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-04-25 16:12:43.666 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-04-25 16:12:43.669 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2025-04-25 16:12:43.671 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-04-25 16:12:43.701 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-04-25 16:12:43.702 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-04-25 16:12:43.904 [main] opc.ZipPackage - Save core properties part
+[DEBUG] 2025-04-25 16:12:43.905 [main] opc.ZipPackage - Save content types part
+[DEBUG] 2025-04-25 16:12:44.019 [main] opc.ZipPackage - Save package relationships
+[DEBUG] 2025-04-25 16:12:44.025 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+[DEBUG] 2025-04-25 16:12:44.026 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+[DEBUG] 2025-04-25 16:12:44.031 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+[DEBUG] 2025-04-25 16:12:44.031 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+[DEBUG] 2025-04-25 16:12:44.031 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+[DEBUG] 2025-04-25 16:12:44.035 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+[DEBUG] 2025-04-25 16:13:58.779 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:13:58.795 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:13:58.798 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:13:58.801 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:13:59.443 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:13:59.444 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:13:59.590 [main] Creat - readUniversityFromXL
+25[DEBUG] 2025-04-25 16:13:59.610 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:13:59.612 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:13:59.614 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:13:59.615 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:13:59.637 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:13:59.638 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:13:59.841 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 16:13:59.841 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 16:13:59.946 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 16:13:59.951 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 16:13:59.952 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 16:13:59.957 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 16:13:59.958 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 16:13:59.960 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 16:13:59.963 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[DEBUG] 2025-04-25 16:18:07.704 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:18:07.718 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:18:07.721 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:18:07.723 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:18:08.329 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:18:08.330 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:18:08.492 [main] Creat - readUniversitiesFromXL[DATA.University{id='0001-high', fullName='Московский Выдуманный Университет', shortName='МВУ', yearOfFoundation=1990, mainProfile=PHYSICS}, DATA.University{id='0002-high', fullName='Московский Придуманный Институт', shortName='МПИ', yearOfFoundation=1987, mainProfile=PHYSICS}, DATA.University{id='0003-high', fullName='Московский Государственный Медицинский Университет', shortName='МГМУ', yearOfFoundation=1960, mainProfile=MEDICINE}, DATA.University{id='0004-high', fullName='Тамбовский Университет Медицины', shortName='ТУМ', yearOfFoundation=1995, mainProfile=MEDICINE}, DATA.University{id='0005-high', fullName='Самарский Медицинский Институт', shortName='СМИ', yearOfFoundation=1936, mainProfile=MEDICINE}, DATA.University{id='0006-high', fullName='Воронежский Литературно-Переводческий Университет', shortName='ВЛПУ', yearOfFoundation=2003, mainProfile=LINGUISTICS}, DATA.University{id='0007-high', fullName='Казанский Университет Вычислений', shortName='КУВ', yearOfFoundation=1989, mainProfile=MATHEMATICS}]
+25[DEBUG] 2025-04-25 16:18:08.514 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:18:08.516 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:18:08.518 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:18:08.520 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:18:08.539 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:18:08.540 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:18:08.582 [main] Creat - readStudentsFromXL[DATA.Student{fullName='Иванов И. А.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Козлов М. В.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.6}, DATA.Student{fullName='Фёдоров А. И.', universityId='0002-high', currentCourseNumber=3, avgExamScore=4.2}, DATA.Student{fullName='Игнатьев М. М.', universityId='0003-high', currentCourseNumber=4, avgExamScore=4.3}, DATA.Student{fullName='Соколов В. В.', universityId='0004-high', currentCourseNumber=1, avgExamScore=4.8}, DATA.Student{fullName='Сидоров Е. Г.', universityId='0004-high', currentCourseNumber=2, avgExamScore=3.9}, DATA.Student{fullName='Витальев В. А.', universityId='0001-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Петров П. А.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Алексеев С. В.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Иванов А. Г.', universityId='0001-high', currentCourseNumber=3, avgExamScore=4.8}, DATA.Student{fullName='Васильев В. П.', universityId='0001-high', currentCourseNumber=4, avgExamScore=4.7}]
+30[DEBUG] 2025-04-25 16:18:08.740 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 16:18:08.741 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 16:18:08.861 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 16:18:08.868 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 16:18:08.869 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 16:18:08.875 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 16:18:08.876 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 16:18:08.877 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 16:18:08.881 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[INFO ] 2025-04-25 16:18:08.884 [main] Creat - CreatStatisticUniversityInfo.xlsx
+34[DEBUG] 2025-04-25 16:37:12.606 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:37:12.621 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:37:12.624 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:37:12.628 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:37:13.235 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:37:13.236 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:37:13.419 [main] Creat - readUniversitiesFromXL[DATA.University{id='0001-high', fullName='Московский Выдуманный Университет', shortName='МВУ', yearOfFoundation=1990, mainProfile=PHYSICS}, DATA.University{id='0002-high', fullName='Московский Придуманный Институт', shortName='МПИ', yearOfFoundation=1987, mainProfile=PHYSICS}, DATA.University{id='0003-high', fullName='Московский Государственный Медицинский Университет', shortName='МГМУ', yearOfFoundation=1960, mainProfile=MEDICINE}, DATA.University{id='0004-high', fullName='Тамбовский Университет Медицины', shortName='ТУМ', yearOfFoundation=1995, mainProfile=MEDICINE}, DATA.University{id='0005-high', fullName='Самарский Медицинский Институт', shortName='СМИ', yearOfFoundation=1936, mainProfile=MEDICINE}, DATA.University{id='0006-high', fullName='Воронежский Литературно-Переводческий Университет', shortName='ВЛПУ', yearOfFoundation=2003, mainProfile=LINGUISTICS}, DATA.University{id='0007-high', fullName='Казанский Университет Вычислений', shortName='КУВ', yearOfFoundation=1989, mainProfile=MATHEMATICS}]
+25[DEBUG] 2025-04-25 16:37:13.444 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+307[DEBUG] 2025-04-25 16:37:13.453 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+307[DEBUG] 2025-04-25 16:37:13.456 [main] opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+307[DEBUG] 2025-04-25 16:37:13.459 [main] opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+307[DEBUG] 2025-04-25 16:37:13.484 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[DEBUG] 2025-04-25 16:37:13.484 [main] ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+65[INFO ] 2025-04-25 16:37:13.520 [main] Creat - readStudentsFromXL[DATA.Student{fullName='Иванов И. А.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Козлов М. В.', universityId='0002-high', currentCourseNumber=2, avgExamScore=4.6}, DATA.Student{fullName='Фёдоров А. И.', universityId='0002-high', currentCourseNumber=3, avgExamScore=4.2}, DATA.Student{fullName='Игнатьев М. М.', universityId='0003-high', currentCourseNumber=4, avgExamScore=4.3}, DATA.Student{fullName='Соколов В. В.', universityId='0004-high', currentCourseNumber=1, avgExamScore=4.8}, DATA.Student{fullName='Сидоров Е. Г.', universityId='0004-high', currentCourseNumber=2, avgExamScore=3.9}, DATA.Student{fullName='Витальев В. А.', universityId='0001-high', currentCourseNumber=2, avgExamScore=4.0}, DATA.Student{fullName='Петров П. А.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Алексеев С. В.', universityId='0001-high', currentCourseNumber=1, avgExamScore=5.0}, DATA.Student{fullName='Иванов А. Г.', universityId='0001-high', currentCourseNumber=3, avgExamScore=4.8}, DATA.Student{fullName='Васильев В. П.', universityId='0001-high', currentCourseNumber=4, avgExamScore=4.7}]
+30[INFO ] 2025-04-25 16:37:13.545 [main] util.StatisticsUtil - Started creating statistic
+25[INFO ] 2025-04-25 16:37:13.558 [main] util.StatisticsUtil - Finished creating statistics with created 4 objects
+67[DEBUG] 2025-04-25 16:37:13.723 [main] opc.ZipPackage - Save core properties part
+548[DEBUG] 2025-04-25 16:37:13.725 [main] opc.ZipPackage - Save content types part
+570[DEBUG] 2025-04-25 16:37:13.845 [main] opc.ZipPackage - Save package relationships
+574[DEBUG] 2025-04-25 16:37:13.852 [main] opc.ZipPackage - Save part 'docProps/app.xml'
+588[DEBUG] 2025-04-25 16:37:13.853 [main] opc.ZipPackage - Save part 'docProps/core.xml'
+588[DEBUG] 2025-04-25 16:37:13.858 [main] opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+588[DEBUG] 2025-04-25 16:37:13.859 [main] opc.ZipPackage - Save part 'xl/styles.xml'
+588[DEBUG] 2025-04-25 16:37:13.860 [main] opc.ZipPackage - Save part 'xl/workbook.xml'
+588[DEBUG] 2025-04-25 16:37:13.863 [main] opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+588[INFO ] 2025-04-25 16:37:13.866 [main] Creat - CreatStatisticUniversityInfo.xlsx
+34

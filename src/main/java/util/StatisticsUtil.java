@@ -5,6 +5,8 @@ import models.Statistics;
 import models.Student;
 import models.University;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -16,8 +18,11 @@ import java.util.stream.Collectors;
 
 public class StatisticsUtil {
 
+    private static final Logger log = LogManager.getLogger(StatisticsUtil.class);
+
     public static List<Statistics> studAndUniByStat(List<Student> studentList, List<University> universityList) {
 
+        log.info("Started creating statistic");
         List<Statistics> statisticsList = new ArrayList<>();
 
         Set<StudyProfile> profiles = universityList.stream()
@@ -59,6 +64,7 @@ public class StatisticsUtil {
                     (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
         });
 
+        log.info(String.format("Finished creating statistics with created %s objects", statisticsList.size()));
 
         return statisticsList;
     }

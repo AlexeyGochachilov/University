@@ -64,6 +64,6 @@ public class XlsWriter {
             e.printStackTrace();
         }
 
-        System.out.println("Запись произведена");
+
     }
 }

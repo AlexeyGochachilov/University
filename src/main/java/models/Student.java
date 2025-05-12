@@ -2,41 +2,35 @@ package models;
 
 import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
 
-    @SerializedName("Name")
-    String fullName;
-    @SerializedName("IDofUniversity")
-    String universityId;
-    @SerializedName("CurrentCourse")
-    int currentCourseNumber;
-    @SerializedName("AvgGreat")
-    float avgExamScore;
+    @SerializedName("studentName")
+    @XmlElement(name = "studentName")
+    private String fullName;
+
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
+    private String universityId;
+
+    @SerializedName("course")
+    @XmlTransient
+    private int currentCourseNumber;
+
+    @SerializedName("avgScore")
+    @XmlElement(name = "avgScore")
+    private float avgExamScore;
 
     public Student() {
     }
 
-    public Student(float avgExamScore, int currentCourseNumber, String universityId, String fullName) {
-        this.avgExamScore = avgExamScore;
-        this.currentCourseNumber = currentCourseNumber;
-        this.universityId = universityId;
-        this.fullName = fullName;
-    }
-
     public String getFullName() {
         return fullName;
-    }
-
-    public String getUniversityId() {
-        return universityId;
-    }
-
-    public int getCurrentCourseNumber() {
-        return currentCourseNumber;
-    }
-
-    public float getAvgExamScore() {
-        return avgExamScore;
     }
 
     public Student setFullName(String fullName) {
@@ -44,14 +38,26 @@ public class Student {
         return this;
     }
 
+    public String getUniversityId() {
+        return universityId;
+    }
+
     public Student setUniversityId(String universityId) {
         this.universityId = universityId;
         return this;
     }
 
+    public int getCurrentCourseNumber() {
+        return currentCourseNumber;
+    }
+
     public Student setCurrentCourseNumber(int currentCourseNumber) {
         this.currentCourseNumber = currentCourseNumber;
         return this;
+    }
+
+    public float getAvgExamScore() {
+        return avgExamScore;
     }
 
     public Student setAvgExamScore(float avgExamScore) {
@@ -61,11 +67,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "DATA.Student{" +
-                "fullName='" + fullName + '\'' +
-                ", universityId='" + universityId + '\'' +
-                ", currentCourseNumber=" + currentCourseNumber +
-                ", avgExamScore=" + avgExamScore +
-                '}';
+        return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+                this.fullName,
+                this.universityId,
+                this.currentCourseNumber,
+                this.avgExamScore);
     }
 }

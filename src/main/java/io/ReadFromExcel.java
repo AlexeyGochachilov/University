@@ -1,10 +1,8 @@
 package io;
 
+import enums.StudyProfile;
 import models.Student;
 import models.University;
-import enums.StudyProfile;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -14,136 +12,83 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ReadFromExcel {
 
-    public static List<University> readXlsUniversity (String fileName) {
+    private static final Logger logger = Logger.getLogger(ReadFromExcel.class.getName());
+
+    private ReadFromExcel() {
+    }
+
+    public static List<University> readXlsUniversities(String filePath) {
 
         List<University> universities = new ArrayList<>();
 
-        FileInputStream inputStream = null;
-        XSSFWorkbook workbook = null;
         try {
-            inputStream = new FileInputStream(fileName);
-            workbook = new XSSFWorkbook(inputStream);
+
+            logger.log(Level.INFO, "Excel reading started");
+
+            FileInputStream inputStream = new FileInputStream(filePath);
+            XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+            XSSFSheet sheet = workbook.getSheet("Университеты");
+
+            Iterator<Row> rows = sheet.iterator();
+            rows.next();
+
+            while (rows.hasNext()) {
+                Row currentRow = rows.next();
+                University university = new University();
+                universities.add(university);
+                university.setId(currentRow.getCell(0).getStringCellValue());
+                university.setFullName(currentRow.getCell(1).getStringCellValue());
+                university.setShortName(currentRow.getCell(2).getStringCellValue());
+                university.setYearOfFoundation((int) currentRow.getCell(3).getNumericCellValue());
+                university.setMainProfile(StudyProfile.valueOf(
+                        StudyProfile.class, currentRow.getCell(4).getStringCellValue()));
+            }
+
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-        XSSFSheet sheet = workbook.getSheet("Университеты");
-
-        Iterator<Row> rows = sheet.iterator();
-        rows.next();
-
-        while (rows.hasNext()){
-            Row currentRow = rows.next();
-            University university = new University();
-            universities.add(university);
-            university.setId(currentRow.getCell(0).getStringCellValue());
-            university.setFullName(currentRow.getCell(1).getStringCellValue());
-            university.setShortName(currentRow.getCell(2).getStringCellValue());
-            university.setYearOfFoundation((int)currentRow.getCell(3).getNumericCellValue());
-            university.setMainProfile(StudyProfile.valueOf(
-                    StudyProfile.class, currentRow.getCell(4).getStringCellValue()));
+            logger.log(Level.SEVERE, "Excel reading failed", e);
+            return universities;
         }
 
+        logger.log(Level.INFO, "Excel reading finished successfully");
         return universities;
     }
 
-    public static List<Student> readXlsStudents(String filePath){
+    public static List<Student> readXlsStudents(String filePath) {
 
         List<Student> students = new ArrayList<>();
 
-        FileInputStream inputStream = null;
-        XSSFWorkbook workbook = null;
         try {
-            inputStream = new FileInputStream(filePath);
-            workbook = new XSSFWorkbook(inputStream);
+
+            logger.log(Level.INFO, "Excel reading started");
+
+            FileInputStream inputStream = new FileInputStream(filePath);
+            XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+            XSSFSheet sheet = workbook.getSheet("Студенты");
+
+            Iterator<Row> rows = sheet.iterator();
+            rows.next();
+
+            while (rows.hasNext()) {
+                Row currentRow = rows.next();
+                Student student = new Student();
+                students.add(student);
+                student.setUniversityId(currentRow.getCell(0).getStringCellValue());
+                student.setFullName(currentRow.getCell(1).getStringCellValue());
+                student.setCurrentCourseNumber((int) currentRow.getCell(2).getNumericCellValue());
+                student.setAvgExamScore((float) currentRow.getCell(3).getNumericCellValue());
+            }
+
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE, "Excel reading failed", e);
+            return students;
         }
 
-        XSSFSheet sheet = workbook.getSheet("Студенты");
-
-        Iterator<Row> rows = sheet.iterator();
-        rows.next();
-
-        while (rows.hasNext()) {
-            Row currentRow = rows.next();
-            Student student = new Student();
-            students.add(student);
-            student.setUniversityId(currentRow.getCell(0).getStringCellValue());
-            student.setFullName(currentRow.getCell(1).getStringCellValue());
-            student.setCurrentCourseNumber((int)currentRow.getCell(2).getNumericCellValue());
-            student.setAvgExamScore((float)currentRow.getCell(3).getNumericCellValue());
-        }
-
+        logger.log(Level.INFO, "Excel reading finished successfully");
         return students;
-    }
-
-    public static String read(String fileName){
-
-        String result = "";
-        FileInputStream fileInputStream = null;
-        XSSFWorkbook readFromExcel = null;
-        try {
-            fileInputStream = new FileInputStream(fileName);
-            readFromExcel = new XSSFWorkbook(fileInputStream);
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-        XSSFSheet student = readFromExcel.getSheet("Студенты");
-        Iterator<Row> itStudent = student.iterator();
-        while (itStudent.hasNext()){
-            Row row = itStudent.next();
-            Iterator<Cell> cells = row.iterator();
-            while (cells.hasNext()){
-                Cell cell = cells.next();
-                CellType cellType = cell.getCellType();
-                switch (cellType) {
-                    case STRING:
-                        result += cell.getStringCellValue() + "=";
-                        break;
-                    case NUMERIC:
-                        result += "[" + cell.getNumericCellValue() + "]";
-                        break;
-
-                    case FORMULA:
-                        result += "[" + cell.getNumericCellValue() + "]";
-                        break;
-                    default:
-                        result += "|";
-                        break;
-                }
-            }
-            result += "\n";
-        }
-        XSSFSheet university = readFromExcel.getSheet("Университеты");
-        Iterator<Row> itUniversity = university.iterator();
-        while (itUniversity.hasNext()){
-            Row row = itUniversity.next();
-            Iterator<Cell> cells = row.iterator();
-            while (cells.hasNext()){
-                Cell cell = cells.next();
-                CellType cellType = cell.getCellType();
-                switch (cellType) {
-                    case STRING:
-                        result += cell.getStringCellValue() + "=";
-                        break;
-                    case NUMERIC:
-                        result += "[" + cell.getNumericCellValue() + "]";
-                        break;
-
-                    case FORMULA:
-                        result += "[" + cell.getNumericCellValue() + "]";
-                        break;
-                    default:
-                        result += "|";
-                        break;
-                }
-            }
-            result += "\n";
-        }
-
-        return result;
     }
 }

@@ -11,59 +11,70 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class XlsWriter {
 
-    public static void generateAndWriteXLSFile(List<Statistics> statisticsList, String filePath) {
+    private static final Logger logger = Logger.getLogger(XlsWriter.class.getName());
+
+    private XlsWriter() {
+    }
+
+    public static void writeXlsStatistics(List<Statistics> statisticsList,
+                                          String filePath) {
+
+        logger.log(Level.INFO, "Excel writing started");
 
         XSSFWorkbook workbook = new XSSFWorkbook();
-        XSSFSheet statisticSheet = workbook.createSheet("Статистика");
+        XSSFSheet statisticsSheet = workbook.createSheet("Статистика");
 
-        Font headFont = workbook.createFont();
-        headFont.setBold(true);
-        headFont.setFontHeight((short) 16);
-        CellStyle headStyle = workbook.createCellStyle();
-        headStyle.setFont(headFont);
+        Font headerFont = workbook.createFont();
+        headerFont.setBold(true);
+        headerFont.setFontHeightInPoints((short) 14);
+        CellStyle headerStyle = workbook.createCellStyle();
+        headerStyle.setFont(headerFont);
 
-        int row = 0;
-
-        Row headRow = statisticSheet.createRow(row++);
-        Cell cellProfileHeaderRow = headRow.createCell(0);
-        cellProfileHeaderRow.setCellValue("Профиль Обучения");
-        cellProfileHeaderRow.setCellStyle(headStyle);
-        Cell cellAVGRow = headRow.createCell(1);
-        cellAVGRow.setCellValue("средний балл за экзамен");
-        cellAVGRow.setCellStyle(headStyle);
-        Cell cellQuantityStudentsByProfile = headRow.createCell(2);
-        cellQuantityStudentsByProfile.setCellValue("количество студентов по профилю");
-        cellQuantityStudentsByProfile.setCellStyle(headStyle);
-        Cell cellQuantityUniversitiesByProfile = headRow.createCell(3);
-        cellQuantityUniversitiesByProfile.setCellValue("количество университетов по профилю");
-        cellQuantityUniversitiesByProfile.setCellStyle(headStyle);
-        Cell cellFullUniversityName = headRow.createCell(4);
-        cellFullUniversityName.setCellValue("названия университетов");
-        cellFullUniversityName.setCellStyle(headStyle);
+        int rowNumber = 0;
+        Row headerRow = statisticsSheet.createRow(rowNumber++);
+        Cell profileCellHeader = headerRow.createCell(0);
+        profileCellHeader.setCellValue("Профиль обучения");
+        profileCellHeader.setCellStyle(headerStyle);
+        Cell avgScoreCellHeader = headerRow.createCell(1);
+        avgScoreCellHeader.setCellValue("Средний балл за экзамены по профилю");
+        avgScoreCellHeader.setCellStyle(headerStyle);
+        Cell numberOfStudentsCellHeader = headerRow.createCell(2);
+        numberOfStudentsCellHeader.setCellValue("Количество студентов по профилю");
+        numberOfStudentsCellHeader.setCellStyle(headerStyle);
+        Cell numberOfUniversitiesCellHeader = headerRow.createCell(3);
+        numberOfUniversitiesCellHeader.setCellValue("Количество университетов по профилю");
+        numberOfUniversitiesCellHeader.setCellStyle(headerStyle);
+        Cell universitiesCellHeader = headerRow.createCell(4);
+        universitiesCellHeader.setCellValue("Университеты");
+        universitiesCellHeader.setCellStyle(headerStyle);
 
         for (Statistics statistics : statisticsList) {
-            Row data = statisticSheet.createRow(row++);
-            Cell profileCell = data.createCell(0);
+            Row dataRow = statisticsSheet.createRow(rowNumber++);
+            Cell profileCell = dataRow.createCell(0);
             profileCell.setCellValue(statistics.getProfile().getProfileName());
-            Cell AVGCell = data.createCell(1);
-            AVGCell.setCellValue(statistics.getAverageGreat());
-            Cell quantityStudentProfileCell = data.createCell(2);
-            quantityStudentProfileCell.setCellValue(statistics.getQuantityStudentsByProfile());
-            Cell quantityUniversityProfileCell = data.createCell(3);
-            quantityUniversityProfileCell.setCellValue(statistics.getQuantityUniversitiesByProfile());
-            Cell universityNameCell = data.createCell(4);
-            universityNameCell.setCellValue(statistics.getFullUniversityName());
+            Cell avgScoreCell = dataRow.createCell(1);
+            avgScoreCell.setCellValue(statistics.getAvgExamScore());
+            Cell numberOfStudentsCell = dataRow.createCell(2);
+            numberOfStudentsCell.setCellValue(statistics.getNumberOfStudents());
+            Cell numberOfUniversitiesCell = dataRow.createCell(3);
+            numberOfUniversitiesCell.setCellValue(statistics.getNumberOfUniversities());
+            Cell universitiesCell = dataRow.createCell(4);
+            universitiesCell.setCellValue(statistics.getUniversityNames());
         }
 
-        try (FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
-            workbook.write(fileOutputStream);
+        try {
+            FileOutputStream outputStream = new FileOutputStream(filePath);
+            workbook.write(outputStream);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE, "New excel file writing failed", e);
+            return;
         }
 
-
+        logger.log(Level.INFO, "Excel writing finished successfully");
     }
 }
